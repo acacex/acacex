@@ -47,7 +47,7 @@ I got into programming in primary school and I've been competing in coding and r
 
 ## Tools I've used
 
-Python · Arduino · CiRA CORE · Construct 2 · Google Colab
+<img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=22D3EE" alt="Python"> <img src="https://img.shields.io/badge/Arduino-0D1117?style=for-the-badge&logo=arduino&logoColor=22D3EE" alt="Arduino"> <img src="https://img.shields.io/badge/Google%20Colab-0D1117?style=for-the-badge&logo=googlecolab&logoColor=22D3EE" alt="Google Colab"> <img src="https://img.shields.io/badge/CiRA%20CORE-0D1117?style=for-the-badge" alt="CiRA CORE"> <img src="https://img.shields.io/badge/Construct%202-0D1117?style=for-the-badge" alt="Construct 2">
 
 ## Where I'm heading
 
@@ -55,4 +55,4 @@ At KMUTT I want to go deeper into programming, AI and mechanical systems, and bu
 
 ## Contact
 
-natthchai55110@gmail.com
+<a href="mailto:natthchai55110@gmail.com"><img src="https://img.shields.io/badge/natthchai55110@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"></a>
