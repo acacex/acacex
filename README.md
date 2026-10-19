@@ -1,19 +1,5 @@
 <!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:22D3EE&height=200&section=header&text=Natthachai%20Panyana&fontColor=F0F6FC&fontSize=46&fontAlignY=38&desc=Robotics%20%C2%B7%20IoT%20%C2%B7%20AI%20%C2%B7%20Optimization&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Natthachai Panyana — Robotics, IoT, AI, Optimization"/>
-
-<div align="center">
-
-<a href="https://github.com/acacex">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=700&lines=Applied+Computer+Science+%40+KMUTT;1st+Runner-Up+%C2%B7+Route+Optimization+2026;I+build+robots%2C+IoT+devices+and+planners;Most+of+what+I+know+came+from+fixing+things" alt="Applied Computer Science at KMUTT · 1st Runner-Up, Route Optimization 2026"/>
-</a>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=acacex&color=22d3ee&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
-<a href="mailto:natthchai55110@gmail.com"><img src="https://img.shields.io/badge/natthchai55110@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"/></a>
-<img src="https://img.shields.io/badge/1st_Runner--Up-Route_Optimization_2026-0D1117?style=for-the-badge&labelColor=F5A524" alt="1st Runner-Up, AI Hackathon Route Optimization 2026"/>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:4A4A4A&height=200&section=header&text=Natthachai%20Panyana&fontColor=FFFFFF&fontSize=46&fontAlignY=38&desc=Robotics%20%C2%B7%20IoT%20%C2%B7%20AI%20%C2%B7%20Optimization&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Natthachai Panyana — Robotics, IoT, AI, Optimization"/>
 
 <br/>
 
@@ -42,11 +28,7 @@ natthachai = {
 
 ## Featured projects
 
-<sub>Each animation is a 3D illustration that shows how the project works. Click one to open the model in GitHub's interactive 3D viewer.</sub>
-
 ### AI Concrete — route & production planner
-
-<a href="assets/models/ai-concrete-truck.stl"><img src="assets/3d/ai-concrete-truck.gif" width="100%" alt="3D illustration: a mixer truck loads at the concrete plant, drives to the construction site, pours and returns"/></a>
 
 <a href="https://github.com/acacex/ai-concrete-route-optimization"><img src="assets/card-aiconcrete.svg" width="100%" alt="AI Concrete — 1st Runner-Up, AI Hackathon Route Optimization 2026"/></a>
 
@@ -58,7 +40,6 @@ natthachai = {
   <tr>
     <td width="50%" valign="top">
       <h3>GrowMate</h3>
-      <a href="assets/models/growmate-robot.stl"><img src="assets/3d/growmate-robot.gif" width="100%" alt="3D illustration: a tracked robot uses its LiDAR to find a tree, circles it and drops fertilizer around the trunk"/></a>
       <a href="https://github.com/acacex/growmate"><img src="assets/project-growmate.svg" width="100%" alt="GrowMate — tracked robot that feeds plants"/></a>
       <p><b>Problem:</b> Feeding plants one by one by hand is slow, repetitive and uneven.<br/>
       <b>Solution:</b> A tracked robot finds each plant with a 2D LiDAR, circles it and drops pellets 30–50 cm from the trunk.<br/>
@@ -66,7 +47,6 @@ natthachai = {
     </td>
     <td width="50%" valign="top">
       <h3>LeafLink</h3>
-      <a href="assets/models/leaflink-compost.stl"><img src="assets/3d/leaflink-compost.gif" width="100%" alt="3D illustration: sensors inside a compost pile send temperature and humidity to a phone"/></a>
       <a href="https://github.com/acacex/leaflink"><img src="assets/project-leaflink.svg" width="100%" alt="LeafLink — compost sensors that report to a phone"/></a>
       <p><b>Problem:</b> Checking compost quality means walking to the pile and inspecting it.<br/>
       <b>Solution:</b> Temperature and humidity sensors inside the pile send readings to a phone.<br/>
@@ -90,21 +70,26 @@ natthachai = {
 ## Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,arduino,github&theme=dark" alt="Python, Arduino, GitHub"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Google%20Colab-0D1117?style=for-the-badge&logo=googlecolab&logoColor=22D3EE" alt="Google Colab"/>
-  <img src="https://img.shields.io/badge/CiRA%20CORE-0D1117?style=for-the-badge" alt="CiRA CORE"/>
-  <img src="https://img.shields.io/badge/Construct%202-0D1117?style=for-the-badge" alt="Construct 2"/>
-  <img src="https://img.shields.io/badge/Claude-0D1117?style=for-the-badge&logo=anthropic&logoColor=22D3EE" alt="Claude"/>
+  <img src="assets/icons/python.svg" width="56" alt="Python" title="Python"/>&nbsp;
+  <img src="assets/icons/c.svg" width="56" alt="C" title="C"/>&nbsp;
+  <img src="assets/icons/arduino.svg" width="56" alt="Arduino" title="Arduino"/>&nbsp;
+  <img src="assets/icons/google-colab.svg" width="56" alt="Google Colab" title="Google Colab"/>&nbsp;
+  <img src="assets/icons/cira-core.svg" width="56" alt="CiRA CORE" title="CiRA CORE"/>&nbsp;
+  <img src="assets/icons/construct-2.svg" width="56" alt="Construct 2" title="Construct 2"/>&nbsp;
+  <img src="assets/icons/claude.svg" width="56" alt="Claude" title="Claude"/>&nbsp;
+  <img src="assets/icons/github.svg" width="56" alt="GitHub" title="GitHub"/>&nbsp;
+  <a href="mailto:natthchai55110@gmail.com"><img src="assets/icons/gmail.svg" width="56" alt="Gmail" title="Gmail"/></a>
 </p>
 
 ## GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=acacex&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9&ring_color=22D3EE" alt="GitHub stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=acacex&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E&stroke=30363D" alt="GitHub streak"/>
+  <img src="/github-metrics.svg" width="100%" alt="GitHub metrics: profile, activity, contribution calendar, languages and achievements"/>
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=acacex&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=FFFFFF&text_color=CFCFCF&ring_color=FFFFFF" alt="GitHub stats"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=acacex&hide_border=true&background=0D0D0D&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=CFCFCF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A8A8A&stroke=333333" alt="GitHub streak"/>
 </p>
 
 <p align="center">
@@ -119,9 +104,9 @@ At KMUTT I want to go deeper into programming, AI and mechanical systems, and bu
 
 <div align="center">
 
-<a href="mailto:natthchai55110@gmail.com"><img src="https://img.shields.io/badge/natthchai55110@gmail.com-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"/></a>
+<a href="mailto:natthchai55110@gmail.com"><img src="https://img.shields.io/badge/natthchai55110@gmail.com-0D0D0D?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/></a>
 
 </div>
 
 <!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,100:0D1117&height=120&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A4A4A,100:000000&height=120&section=footer" width="100%" alt=""/>

@@ -3,41 +3,41 @@
   <desc id="d">Temperature and humidity sensors inside a compost pile send readings to a phone, so nobody has to walk to the pile to check it.</desc>
   <style>
     .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-    .title { font-size: 30px; font-weight: 700; fill: #F0F6FC; }
-    .sub { font-size: 16px; fill: #8B949E; }
-    .tag { font-size: 13px; font-weight: 700; fill: #0D1117; letter-spacing: 1px; }
-    .num { font-size: 30px; font-weight: 700; fill: #22D3EE; }
-    .lab { font-size: 14px; fill: #C9D1D9; }
-    .small { font-size: 12px; fill: #8B949E; }
+    .title { font-size: 30px; font-weight: 700; fill: #F5F5F5; }
+    .sub { font-size: 16px; fill: #939393; }
+    .tag { font-size: 13px; font-weight: 700; fill: #111111; letter-spacing: 1px; }
+    .num { font-size: 30px; font-weight: 700; fill: #FFFFFF; }
+    .lab { font-size: 14px; fill: #D0D0D0; }
+    .small { font-size: 12px; fill: #939393; }
     .in { opacity: 0; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
     .d1 { animation-delay: .3s; } .d2 { animation-delay: .55s; } .d3 { animation-delay: .8s; }
     @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-    .wave { fill: none; stroke: #22D3EE; stroke-width: 2.5; stroke-linecap: round; opacity: 0; animation: wave 1.8s ease-out infinite; }
+    .wave { fill: none; stroke: #FFFFFF; stroke-width: 2.5; stroke-linecap: round; opacity: 0; animation: wave 1.8s ease-out infinite; }
     .w2 { animation-delay: .6s; } .w3 { animation-delay: 1.2s; }
     @keyframes wave { 0% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 0; } }
     .led { animation: led 1s steps(1) infinite; }
-    @keyframes led { 0% { fill: #34D399; } 50% { fill: #1E5A46; } }
+    @keyframes led { 0% { fill: #E6E6E6; } 50% { fill: #4C4C4C; } }
     .spark { stroke-dasharray: 260; stroke-dashoffset: 260; animation: draw 3s ease-in-out infinite; }
     @keyframes draw { 0% { stroke-dashoffset: 260; } 60%,100% { stroke-dashoffset: 0; } }
   </style>
-  <rect x="1" y="1" width="898" height="298" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="298" rx="16" fill="#111111" stroke="#353535" stroke-width="2"/>
   <g class="f">
     <text class="title" x="36" y="58">LeafLink</text>
     <text class="sub" x="36" y="84">Compost sensors that report to your phone</text>
-    <rect x="742" y="34" width="124" height="30" rx="15" fill="#22D3EE"/>
+    <rect x="742" y="34" width="124" height="30" rx="15" fill="#FFFFFF"/>
     <text class="tag" x="804" y="54" text-anchor="middle">IOT PROJECT</text>
   </g>
 
   <!-- compost pile with a sensor -->
   <g>
-    <path d="M240 196 Q 310 120 380 196 Z" fill="#5C4129"/>
-    <path d="M262 196 Q 310 146 358 196" fill="none" stroke="#7A5634" stroke-width="3"/>
-    <rect x="232" y="194" width="156" height="6" rx="3" fill="#8B6A42"/>
-    <line x1="322" y1="186" x2="322" y2="142" stroke="#B9C0CA" stroke-width="3"/>
-    <rect x="308" y="124" width="30" height="20" rx="4" fill="#E6EDF3"/>
-    <circle class="led" cx="316" cy="134" r="3.5" fill="#34D399"/>
-    <line x1="332" y1="124" x2="332" y2="110" stroke="#B9C0CA" stroke-width="1.5"/>
-    <circle cx="332" cy="108" r="3" fill="#22D3EE"/>
+    <path d="M240 196 Q 310 120 380 196 Z" fill="#454545"/>
+    <path d="M262 196 Q 310 146 358 196" fill="none" stroke="#5B5B5B" stroke-width="3"/>
+    <rect x="232" y="194" width="156" height="6" rx="3" fill="#6E6E6E"/>
+    <line x1="322" y1="186" x2="322" y2="142" stroke="#BFBFBF" stroke-width="3"/>
+    <rect x="308" y="124" width="30" height="20" rx="4" fill="#ECECEC"/>
+    <circle class="led" cx="316" cy="134" r="3.5" fill="#E6E6E6"/>
+    <line x1="332" y1="124" x2="332" y2="110" stroke="#BFBFBF" stroke-width="1.5"/>
+    <circle cx="332" cy="108" r="3" fill="#FFFFFF"/>
     <text class="f small" x="310" y="216" text-anchor="middle">sensor inside the pile</text>
   </g>
 
@@ -47,26 +47,26 @@
     <path class="wave w2" d="M22 -22 A30 30 0 0 1 22 22"/>
     <path class="wave w3" d="M34 -32 A44 44 0 0 1 34 32"/>
   </g>
-  <path id="link" d="M340 108 C 430 90, 530 96, 602 136" fill="none" stroke="#22D3EE" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 7"/>
+  <path id="link" d="M340 108 C 430 90, 530 96, 602 136" fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 7"/>
   <g>
-    <circle r="5" fill="#F5A524"/>
+    <circle r="5" fill="#D4D4D4"/>
     <animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#link"/></animateMotion>
   </g>
   <g>
-    <circle r="5" fill="#22D3EE"/>
+    <circle r="5" fill="#FFFFFF"/>
     <animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#link"/></animateMotion>
   </g>
 
   <!-- phone with live chart -->
   <g>
-    <rect x="602" y="112" width="68" height="88" rx="11" fill="#161B22" stroke="#30363D" stroke-width="2"/>
-    <rect x="611" y="122" width="50" height="68" rx="4" fill="#0D1117"/>
-    <polyline class="spark" points="615,170 622,161 629,165 636,150 643,154 650,139 657,143" fill="none" stroke="#F5A524" stroke-width="2.5" stroke-linejoin="round"/>
-    <rect x="615" y="178" width="42" height="5" rx="2.5" fill="#22D3EE"/>
+    <rect x="602" y="112" width="68" height="88" rx="11" fill="#1A1A1A" stroke="#353535" stroke-width="2"/>
+    <rect x="611" y="122" width="50" height="68" rx="4" fill="#111111"/>
+    <polyline class="spark" points="615,170 622,161 629,165 636,150 643,154 650,139 657,143" fill="none" stroke="#D4D4D4" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="615" y="178" width="42" height="5" rx="2.5" fill="#FFFFFF"/>
     <text class="f small" x="636" y="216" text-anchor="middle">your phone</text>
   </g>
 
-  <line x1="36" y1="232" x2="864" y2="232" stroke="#21262D" stroke-width="2"/>
+  <line x1="36" y1="232" x2="864" y2="232" stroke="#252525" stroke-width="2"/>
   <g class="f">
     <g class="in d1"><text class="num" x="36" y="270">Temperature</text></g>
     <g class="in d2"><text class="num" x="320" y="270">Humidity</text></g>
