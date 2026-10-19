@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
+  <title id="t">GrowMate — a tracked robot that feeds plants</title>
+  <desc id="d">The robot finds each plant with a 2D LiDAR, circles it and drops fertilizer 30 to 50 centimetres from the trunk. Built for Coding Thailand 2025.</desc>
+  <style>
+    .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #F0F6FC; }
+    .sub { font-size: 16px; fill: #8B949E; }
+    .tag { font-size: 13px; font-weight: 700; fill: #0D1117; letter-spacing: 1px; }
+    .num { font-size: 30px; font-weight: 700; fill: #22D3EE; }
+    .lab { font-size: 14px; fill: #C9D1D9; }
+    .in { opacity: 0; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .3s; } .d2 { animation-delay: .55s; } .d3 { animation-delay: .8s; }
+    @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .ring { stroke-dasharray: 4 6; animation: spin 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pellet { opacity: 0; animation: drop 6s linear infinite; }
+    @keyframes drop { 0% { opacity: 0; } 4% { opacity: 1; } 80% { opacity: 1; } 100% { opacity: 0; } }
+    .beam { animation: beam 1s ease-in-out infinite; }
+    @keyframes beam { 0%,100% { opacity: .9; } 50% { opacity: .3; } }
+  </style>
+  <rect x="1" y="1" width="898" height="298" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <g class="f">
+    <text class="title" x="36" y="58">GrowMate</text>
+    <text class="sub" x="36" y="84">A tracked robot that finds each plant and feeds it</text>
+    <rect x="642" y="34" width="224" height="30" rx="15" fill="#22D3EE"/>
+    <text class="tag" x="754" y="54" text-anchor="middle">CODING THAILAND 2025</text>
+  </g>
+
+  <!-- top view: plants in a row, robot circles the middle one -->
+  <g>
+    <g opacity=".55">
+      <circle cx="250" cy="135" r="13" fill="#2E7D4F"/><circle cx="250" cy="135" r="34" fill="none" stroke="#8B6A42" stroke-width="2"/>
+      <circle cx="650" cy="135" r="13" fill="#2E7D4F"/><circle cx="650" cy="135" r="34" fill="none" stroke="#8B6A42" stroke-width="2"/>
+    </g>
+    <circle cx="450" cy="135" r="34" fill="none" stroke="#F5A524" stroke-width="2" class="ring"/>
+    <circle cx="450" cy="135" r="15" fill="#34D399"/>
+    <circle cx="450" cy="135" r="5" fill="#7A5230"/>
+    <!-- fertilizer appears around the drop zone as the robot passes -->
+    <g fill="#C08A48">
+      <circle class="pellet" cx="484" cy="135" r="2.6" style="animation-delay:0s"/>
+      <circle class="pellet" cx="474" cy="159" r="2.6" style="animation-delay:.75s"/>
+      <circle class="pellet" cx="450" cy="169" r="2.6" style="animation-delay:1.5s"/>
+      <circle class="pellet" cx="426" cy="159" r="2.6" style="animation-delay:2.25s"/>
+      <circle class="pellet" cx="416" cy="135" r="2.6" style="animation-delay:3s"/>
+      <circle class="pellet" cx="426" cy="111" r="2.6" style="animation-delay:3.75s"/>
+      <circle class="pellet" cx="450" cy="101" r="2.6" style="animation-delay:4.5s"/>
+      <circle class="pellet" cx="474" cy="111" r="2.6" style="animation-delay:5.25s"/>
+    </g>
+    <path id="orbit" d="M512 135 A62 62 0 1 1 388 135 A62 62 0 1 1 512 135" fill="none" stroke="#30363D" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <g>
+      <line class="beam" x1="0" y1="0" x2="0" y2="58" stroke="#FF6B6B" stroke-width="1.6"/>
+      <rect x="-13" y="-9" width="26" height="18" rx="4" fill="#E6EDF3"/>
+      <rect x="-14" y="-12" width="28" height="4" rx="2" fill="#3A4150"/>
+      <rect x="-14" y="8" width="28" height="4" rx="2" fill="#3A4150"/>
+      <circle cx="5" cy="0" r="4.5" fill="#22D3EE"/>
+      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto"><mpath href="#orbit"/></animateMotion>
+    </g>
+  </g>
+
+  <line x1="36" y1="208" x2="864" y2="208" stroke="#21262D" stroke-width="2"/>
+  <g class="f">
+    <g class="in d1"><text class="num" x="36" y="250">2D LiDAR</text><text class="lab" x="36" y="274">finds each plant</text></g>
+    <g class="in d2"><text class="num" x="320" y="250">30–50 cm</text><text class="lab" x="320" y="274">fertilizer dropped from the trunk</text></g>
+    <g class="in d3"><text class="num" x="620" y="250">ROS</text><text class="lab" x="620" y="274">robotics topic · regional round</text></g>
+  </g>
+</svg>

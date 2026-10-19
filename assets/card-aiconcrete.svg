@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
+  <title id="t">AI Concrete — route and production planner</title>
+  <desc id="d">1st Runner-Up, AI Hackathon Route Optimization 2026. 4 of 4 days pass SLA, 96 of 96 orders perfect, profit up 27 percent.</desc>
+  <style>
+    .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #F0F6FC; }
+    .sub { font-size: 16px; fill: #8B949E; }
+    .tag { font-size: 13px; font-weight: 700; fill: #0D1117; letter-spacing: 1px; }
+    .num { font-size: 34px; font-weight: 700; fill: #22D3EE; }
+    .lab { font-size: 14px; fill: #C9D1D9; }
+    .old { font-size: 13px; fill: #6E7681; }
+    .node { font-size: 12px; fill: #8B949E; }
+    .in { opacity: 0; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .3s; } .d2 { animation-delay: .55s; } .d3 { animation-delay: .8s; }
+    @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .dash { stroke-dasharray: 6 8; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -28; } }
+    .shine { animation: shine 2.8s ease-in-out infinite; }
+    @keyframes shine { 0%,100% { opacity: 1; } 50% { opacity: .55; } }
+    .bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.4s cubic-bezier(.2,.8,.2,1) forwards; }
+    .b1 { animation-delay: .5s; } .b2 { animation-delay: .75s; } .b3 { animation-delay: 1s; }
+    @keyframes grow { to { transform: scaleX(1); } }
+  </style>
+  <rect x="1" y="1" width="898" height="298" rx="16" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+
+  <!-- header -->
+  <g class="f">
+    <text class="title" x="36" y="58">AI Concrete</text>
+    <text class="sub" x="36" y="84">Route &amp; production planner for ready-mix concrete deliveries</text>
+    <g class="shine">
+      <rect x="690" y="34" width="176" height="30" rx="15" fill="#F5A524"/>
+      <text class="tag" x="778" y="54" text-anchor="middle">1ST RUNNER-UP</text>
+    </g>
+  </g>
+
+  <!-- animated route: plant -> site, truck drives along it -->
+  <g transform="translate(0 0)">
+    <path id="route" d="M70 128 C 260 98, 420 158, 600 124 S 790 110, 830 128" fill="none" stroke="#22D3EE" stroke-opacity=".55" stroke-width="2.5" class="dash"/>
+    <g class="f">
+      <rect x="52" y="108" width="36" height="36" rx="6" fill="#1F2635" stroke="#22D3EE" stroke-width="1.5"/>
+      <path d="M60 136 v-14 l8 -6 v6 l8 -6 v20 z" fill="#22D3EE"/>
+      <text class="node" x="70" y="160" text-anchor="middle">plant</text>
+      <rect x="812" y="110" width="36" height="36" rx="18" fill="#1F2635" stroke="#F5A524" stroke-width="1.5"/>
+      <circle cx="830" cy="128" r="6" fill="#F5A524"/>
+      <text class="node" x="830" y="160" text-anchor="middle">site</text>
+    </g>
+    <g>
+      <!-- truck -->
+      <g transform="translate(-22 -16)">
+        <rect x="0" y="6" width="26" height="14" rx="3" fill="#F5A524"/>
+        <rect x="26" y="9" width="14" height="11" rx="2" fill="#E6EDF3"/>
+        <circle cx="8" cy="22" r="4" fill="#22262E" stroke="#22D3EE" stroke-width="1.5"/>
+        <circle cx="32" cy="22" r="4" fill="#22262E" stroke="#22D3EE" stroke-width="1.5"/>
+      </g>
+      <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+        <mpath href="#route"/>
+      </animateMotion>
+    </g>
+  </g>
+
+  <line x1="36" y1="182" x2="864" y2="182" stroke="#21262D" stroke-width="2"/>
+
+  <!-- results -->
+  <g class="f">
+    <g class="in d1">
+      <text class="num" x="36" y="228">4 / 4</text>
+      <text class="lab" x="36" y="252">test days pass every SLA</text>
+      <rect x="36" y="264" width="220" height="6" rx="3" fill="#21262D"/>
+      <rect class="bar b1" x="36" y="264" width="220" height="6" rx="3" fill="#22D3EE"/>
+      <text class="old" x="36" y="288">original plan: 0 / 4</text>
+    </g>
+    <g class="in d2">
+      <text class="num" x="320" y="228">96 / 96</text>
+      <text class="lab" x="320" y="252">orders on time + continuous</text>
+      <rect x="320" y="264" width="220" height="6" rx="3" fill="#21262D"/>
+      <rect class="bar b2" x="320" y="264" width="220" height="6" rx="3" fill="#22D3EE"/>
+      <text class="old" x="320" y="288">original plan: 46 / 96</text>
+    </g>
+    <g class="in d3">
+      <text class="num" x="620" y="228">+27%</text>
+      <text class="lab" x="620" y="252">contribution (profit)</text>
+      <rect x="620" y="264" width="220" height="6" rx="3" fill="#21262D"/>
+      <rect class="bar b3" x="620" y="264" width="220" height="6" rx="3" fill="#F5A524"/>
+      <rect x="792" y="260" width="2" height="14" fill="#8B949E"/><!-- original plan = 220 / 1.272 -->
+
+      <text class="old" x="620" y="288">−8% distance · 0 wasted loads</text>
+    </g>
+  </g>
+</svg>
