@@ -77,7 +77,6 @@ My projects rarely work on the first try, and most of what I know came from fixi
   <tr>
     <td align="right"><b>AI tools</b></td>
     <td>
-      <img src="assets/icons/cira-core.svg" width="48" alt="CiRA CORE" title="CiRA CORE"/>
       <img src="assets/icons/claude.svg" width="48" alt="Claude" title="Claude"/>
       <img src="assets/icons/chatgpt.svg" width="48" alt="ChatGPT" title="ChatGPT"/>
     </td>
@@ -95,6 +94,7 @@ My projects rarely work on the first try, and most of what I know came from fixi
       <img src="assets/icons/github.svg" width="48" alt="GitHub" title="GitHub"/>
       <img src="assets/icons/google-colab.svg" width="48" alt="Google Colab" title="Google Colab"/>
       <img src="assets/icons/construct-2.svg" width="48" alt="Construct 2" title="Construct 2"/>
+      <img src="assets/icons/cira-core.svg" width="48" alt="CiRA CORE" title="CiRA CORE"/>
     </td>
   </tr>
 </table>
