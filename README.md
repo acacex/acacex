@@ -1,5 +1,9 @@
 <!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:4A4A4A&height=200&section=header&text=Natthachai%20Panyana&fontColor=FFFFFF&fontSize=46&fontAlignY=38&desc=Robotics%20%C2%B7%20IoT%20%C2%B7%20AI%20%C2%B7%20Optimization&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Natthachai Panyana — Robotics, IoT, AI, Optimization"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:4A4A4A&height=200&section=header&text=Natthachai%20Panyana&fontColor=FFFFFF&fontSize=46&fontAlignY=38&desc=Developer%20%C2%B7%20UX%2FUI%20Designer&descAlignY=60&descSize=20&animation=fadeIn" width="100%" alt="Natthachai Panyana — Developer and UX/UI Designer"/>
+
+<p align="center">
+  Applied Computer Science @ KMUTT · Bangkok, Thailand
+</p>
 
 <br/>
 
@@ -11,20 +15,11 @@ I'm an **Applied Computer Science** student at **King Mongkut's University of Te
 
 My projects rarely work on the first try, and most of what I know came from fixing them. I like the part where a sketch becomes something that moves, senses or decides — and lately, the part where a plan is checked against real numbers before anyone trusts it.
 
-```python
-natthachai = {
-    "study":    "Applied Computer Science @ KMUTT",
-    "builds":   ["robots", "IoT devices", "optimization planners"],
-    "latest":   "1st Runner-Up, AI Hackathon Route Optimization 2026",
-    "learning": ["AI", "mechanical systems", "logistics optimization"],
-}
-```
-
 ## What I build
 
-| Robotics | IoT | Optimization & simulation | AI-assisted programming |
-|---|---|---|---|
-| Mobile robots, sensor wiring and Arduino control code | Sensors that send readings to a phone | Scheduling and routing plans tested in a simulator before they run | Solving problems in Python with AI tools under time limits |
+| Robotics | IoT | Optimization & simulation | UX/UI design | AI-assisted programming |
+|---|---|---|---|---|
+| Mobile robots, sensor wiring and Arduino control code | Sensors that send readings to a phone | Scheduling and routing plans tested in a simulator before they run | Interfaces, mockups and visuals in Figma and Canva | Solving problems in Python with AI tools under time limits |
 
 ## Featured projects
 
@@ -69,23 +64,44 @@ natthachai = {
 
 ## Tech stack
 
-<p align="center">
-  <img src="assets/icons/python.svg" width="56" alt="Python" title="Python"/>&nbsp;
-  <img src="assets/icons/c.svg" width="56" alt="C" title="C"/>&nbsp;
-  <img src="assets/icons/arduino.svg" width="56" alt="Arduino" title="Arduino"/>&nbsp;
-  <img src="assets/icons/google-colab.svg" width="56" alt="Google Colab" title="Google Colab"/>&nbsp;
-  <img src="assets/icons/cira-core.svg" width="56" alt="CiRA CORE" title="CiRA CORE"/>&nbsp;
-  <img src="assets/icons/construct-2.svg" width="56" alt="Construct 2" title="Construct 2"/>&nbsp;
-  <img src="assets/icons/claude.svg" width="56" alt="Claude" title="Claude"/>&nbsp;
-  <img src="assets/icons/github.svg" width="56" alt="GitHub" title="GitHub"/>&nbsp;
-  <a href="mailto:natthchai55110@gmail.com"><img src="assets/icons/gmail.svg" width="56" alt="Gmail" title="Gmail"/></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="right"><b>Languages &amp; hardware</b></td>
+    <td>
+      <img src="assets/icons/python.svg" width="48" alt="Python" title="Python"/>
+      <img src="assets/icons/c.svg" width="48" alt="C" title="C"/>
+      <img src="assets/icons/arduino.svg" width="48" alt="Arduino" title="Arduino"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><b>AI tools</b></td>
+    <td>
+      <img src="assets/icons/chatgpt.svg" width="48" alt="ChatGPT" title="ChatGPT"/>
+      <img src="assets/icons/codex.svg" width="48" alt="Codex" title="Codex"/>
+      <img src="assets/icons/claude.svg" width="48" alt="Claude" title="Claude"/>
+      <img src="assets/icons/gemini.svg" width="48" alt="Gemini" title="Gemini"/>
+      <img src="assets/icons/perplexity.svg" width="48" alt="Perplexity" title="Perplexity"/>
+      <img src="assets/icons/cira-core.svg" width="48" alt="CiRA CORE" title="CiRA CORE"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><b>Design</b></td>
+    <td>
+      <img src="assets/icons/figma.svg" width="48" alt="Figma" title="Figma"/>
+      <img src="assets/icons/canva.svg" width="48" alt="Canva" title="Canva"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><b>Workflow &amp; build</b></td>
+    <td>
+      <img src="assets/icons/github.svg" width="48" alt="GitHub" title="GitHub"/>
+      <img src="assets/icons/google-colab.svg" width="48" alt="Google Colab" title="Google Colab"/>
+      <img src="assets/icons/construct-2.svg" width="48" alt="Construct 2" title="Construct 2"/>
+    </td>
+  </tr>
+</table>
 
 ## GitHub activity
-
-<p align="center">
-  <img src="/github-metrics.svg" width="100%" alt="GitHub metrics: profile, activity, contribution calendar, languages and achievements"/>
-</p>
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=acacex&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=FFFFFF&text_color=CFCFCF&ring_color=FFFFFF" alt="GitHub stats"/>
@@ -102,11 +118,13 @@ At KMUTT I want to go deeper into programming, AI and mechanical systems, and bu
 
 ## Contact
 
-<div align="center">
-
-<a href="mailto:natthchai55110@gmail.com"><img src="https://img.shields.io/badge/natthchai55110@gmail.com-0D0D0D?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/></a>
-
-</div>
+<p align="center">
+  <a href="mailto:natthchai55110@gmail.com"><img src="assets/icons/gmail.svg" width="56" alt="Gmail" title="Email me"/></a>
+  <br/>
+  <a href="mailto:natthchai55110@gmail.com">natthchai55110@gmail.com</a>
+  <br/>
+  <sub>Happy to talk about projects, hackathons and collaboration.</sub>
+</p>
 
 <!-- Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A4A4A,100:000000&height=120&section=footer" width="100%" alt=""/>
