@@ -81,7 +81,6 @@ My projects rarely work on the first try, and most of what I know came from fixi
       <img src="assets/icons/claude.svg" width="48" alt="Claude" title="Claude"/>
       <img src="assets/icons/gemini.svg" width="48" alt="Gemini" title="Gemini"/>
       <img src="assets/icons/perplexity.svg" width="48" alt="Perplexity" title="Perplexity"/>
-      <img src="assets/icons/cira-core.svg" width="48" alt="CiRA CORE" title="CiRA CORE"/>
     </td>
   </tr>
   <tr>
@@ -97,6 +96,7 @@ My projects rarely work on the first try, and most of what I know came from fixi
       <img src="assets/icons/github.svg" width="48" alt="GitHub" title="GitHub"/>
       <img src="assets/icons/google-colab.svg" width="48" alt="Google Colab" title="Google Colab"/>
       <img src="assets/icons/construct-2.svg" width="48" alt="Construct 2" title="Construct 2"/>
+      <img src="assets/icons/cira-core.svg" width="48" alt="CiRA CORE" title="CiRA CORE"/>
     </td>
   </tr>
 </table>
