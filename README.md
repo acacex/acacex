@@ -99,13 +99,6 @@ My projects rarely work on the first try, and most of what I know came from fixi
   </tr>
 </table>
 
-## GitHub activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=acacex&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=FFFFFF&text_color=CFCFCF&ring_color=FFFFFF" alt="GitHub stats"/>
-  <img height="165" src="https://streak-stats.demolab.com?user=acacex&hide_border=true&background=0D0D0D&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=CFCFCF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8A8A8A&stroke=333333" alt="GitHub streak"/>
-</p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/acacex/acacex/output/github-snake-dark.svg" width="100%" alt="Contribution graph being eaten by a snake"/>
 </p>
