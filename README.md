@@ -44,20 +44,14 @@ Watch a delivery, a fertilizer run and a sensor reading. Select a scene to explo
 
 <p align="center">
   <a href="assets/models/ai-concrete-truck.stl"><picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/profile/ai-concrete-truck-compact.png">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/ai-concrete-truck-still.png">
     <source media="(max-width: 600px)" srcset="assets/profile/ai-concrete-truck-compact-spin.gif">
     <img src="assets/profile/ai-concrete-truck-spin.gif" alt="Open the AI Concrete delivery model in 3D">
   </picture></a>
   <a href="assets/models/growmate-robot.stl"><picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/profile/growmate-robot-compact.png">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/growmate-robot-still.png">
     <source media="(max-width: 600px)" srcset="assets/profile/growmate-robot-compact-spin.gif">
     <img src="assets/profile/growmate-robot-spin.gif" alt="Open the GrowMate robot model in 3D">
   </picture></a>
   <a href="assets/models/leaflink-compost.stl"><picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/profile/leaflink-compost-compact.png">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/leaflink-compost-still.png">
     <source media="(max-width: 600px)" srcset="assets/profile/leaflink-compost-compact-spin.gif">
     <img src="assets/profile/leaflink-compost-spin.gif" alt="Open the LeafLink compost monitor model in 3D">
   </picture></a>
