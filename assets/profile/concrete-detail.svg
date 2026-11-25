@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="438" height="91" viewBox="25 87 438 91" role="img" aria-labelledby="t">
+  <title id="t">AI Concrete — route and production planner</title>
+  <style>.f { font-family: "Segoe UI", Helvetica, Arial, sans-serif; } .node { font-size: 17px; fill: #D0D0D0; } .dash { stroke-dasharray: 6 8; }</style>
+  <rect x="25" y="87" width="438" height="91" rx="12" fill="#111111" />
+  <g transform="translate(0 0)">
+    <path id="route" d="M70 128 C145 104 238 147 299 126 S375 118 417 128" fill="none" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="2.5" class="dash" />
+    <g class="f">
+      <rect x="52" y="108" width="36" height="36" rx="6" fill="#262626" stroke="#FFFFFF" stroke-width="1.5" />
+      <path d="M60 136 v-14 l8 -6 v6 l8 -6 v20 z" fill="#FFFFFF" />
+      <text class="node" x="70" y="160" text-anchor="middle">plant</text>
+      <rect x="399" y="110" width="36" height="36" rx="18" fill="#262626" stroke="#D4D4D4" stroke-width="1.5" />
+      <circle cx="417" cy="128" r="6" fill="#D4D4D4" />
+      <text class="node" x="417" y="160" text-anchor="middle">site</text>
+    </g>
+    <g>
+      <g transform="translate(-22 -16)">
+        <rect x="0" y="6" width="26" height="14" rx="3" fill="#D4D4D4" />
+        <rect x="26" y="9" width="14" height="11" rx="2" fill="#ECECEC" />
+        <circle cx="8" cy="22" r="4" fill="#262626" stroke="#FFFFFF" stroke-width="1.5" />
+        <circle cx="32" cy="22" r="4" fill="#262626" stroke="#FFFFFF" stroke-width="1.5" />
+      </g>
+      <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+        <mpath href="#route" />
+      </animateMotion>
+    </g>
+  </g>
+</svg>

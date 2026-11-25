@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="156" viewBox="0 0 350 156" role="img" aria-labelledby="t d">
+  <title id="t">Top Languages</title>
+  <desc id="d">Python represents 35,349 of 35,349 counted code bytes across public non-fork repositories.</desc>
+  <style>
+    text { font-family: "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-size: 19px; font-weight: 600; fill: #F5F5F5; }
+    .number { font-size: 33px; font-weight: 700; fill: #FFFFFF; }
+    .label { font-size: 14px; fill: #D0D0D0; }
+    .note { font-size: 12px; fill: #939393; }
+  </style>
+  <rect x="1" y="1" width="348" height="154" rx="14" fill="#111111" stroke="#353535" stroke-width="2"/>
+  <text class="title" x="20" y="32">Top Languages</text>
+  <path d="M20 45H330" stroke="#353535"/>
+
+  <text class="number" x="20" y="85">Python</text>
+  <text class="label" x="330" y="84" text-anchor="end">100%</text>
+  <rect x="20" y="95" width="310" height="5" rx="2.5" fill="#D4D4D4"/>
+  <text class="label" x="20" y="119">35,349 bytes in public non-fork repos</text>
+  <text class="note" x="20" y="138">GitHub snapshot · 25 Nov 2026</text>
+</svg>

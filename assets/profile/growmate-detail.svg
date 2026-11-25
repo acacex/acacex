@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="474" height="165" viewBox="213 52 474 165" role="img" aria-labelledby="t">
+  <title id="t">GrowMate — a tracked robot that feeds plants</title>
+  <style>
+    .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 30px; font-weight: 700; fill: #F5F5F5; }
+    .sub { font-size: 16px; fill: #939393; }
+    .tag { font-size: 13px; font-weight: 700; fill: #111111; letter-spacing: 1px; }
+    .num { font-size: 30px; font-weight: 700; fill: #FFFFFF; }
+    .lab { font-size: 14px; fill: #D0D0D0; }
+    .in { opacity: 0; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .3s; } .d2 { animation-delay: .55s; } .d3 { animation-delay: .8s; }
+    @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .ring { stroke-dasharray: 4 6; animation: spin 6s linear infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pellet { opacity: 0; animation: drop 6s linear infinite; }
+    @keyframes drop { 0% { opacity: 0; } 4% { opacity: 1; } 80% { opacity: 1; } 100% { opacity: 0; } }
+    .beam { animation: beam 1s ease-in-out infinite; }
+    @keyframes beam { 0%,100% { opacity: .9; } 50% { opacity: .3; } }
+  </style>
+  <rect x="213" y="52" width="474" height="165" rx="12" fill="#111111" />
+  <g>
+    <g opacity=".55">
+      <circle cx="250" cy="135" r="13" fill="#696969" />
+      <circle cx="250" cy="135" r="34" fill="none" stroke="#6E6E6E" stroke-width="2" />
+      <circle cx="650" cy="135" r="13" fill="#696969" />
+      <circle cx="650" cy="135" r="34" fill="none" stroke="#6E6E6E" stroke-width="2" />
+    </g>
+    <circle cx="450" cy="135" r="34" fill="none" stroke="#D4D4D4" stroke-width="2" class="ring" />
+    <circle cx="450" cy="135" r="15" fill="#E6E6E6" />
+    <circle cx="450" cy="135" r="5" fill="#585858" />
+    <g fill="#919191">
+      <circle class="pellet" cx="484" cy="135" r="2.6" style="animation-delay:0s" />
+      <circle class="pellet" cx="474" cy="159" r="2.6" style="animation-delay:.75s" />
+      <circle class="pellet" cx="450" cy="169" r="2.6" style="animation-delay:1.5s" />
+      <circle class="pellet" cx="426" cy="159" r="2.6" style="animation-delay:2.25s" />
+      <circle class="pellet" cx="416" cy="135" r="2.6" style="animation-delay:3s" />
+      <circle class="pellet" cx="426" cy="111" r="2.6" style="animation-delay:3.75s" />
+      <circle class="pellet" cx="450" cy="101" r="2.6" style="animation-delay:4.5s" />
+      <circle class="pellet" cx="474" cy="111" r="2.6" style="animation-delay:5.25s" />
+    </g>
+    <path id="orbit" d="M512 135 A62 62 0 1 1 388 135 A62 62 0 1 1 512 135" fill="none" stroke="#353535" stroke-width="1.5" stroke-dasharray="3 5" />
+    <g>
+      <line class="beam" x1="0" y1="0" x2="0" y2="58" stroke="#BDBDBD" stroke-width="1.6" />
+      <rect x="-13" y="-9" width="26" height="18" rx="4" fill="#ECECEC" />
+      <rect x="-14" y="-12" width="28" height="4" rx="2" fill="#414141" />
+      <rect x="-14" y="8" width="28" height="4" rx="2" fill="#414141" />
+      <circle cx="5" cy="0" r="4.5" fill="#FFFFFF" />
+      <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#orbit" />
+      </animateMotion>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="156" viewBox="0 0 350 156" role="img" aria-labelledby="t d">
+  <title id="t">GitHub Stats</title>
+  <desc id="d">52 contributions in 2026 to date and 2 public repositories.</desc>
+  <style>
+    text { font-family: "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-size: 19px; font-weight: 600; fill: #F5F5F5; }
+    .number { font-size: 33px; font-weight: 700; fill: #FFFFFF; }
+    .label { font-size: 14px; fill: #D0D0D0; }
+    .note { font-size: 12px; fill: #939393; }
+  </style>
+  <rect x="1" y="1" width="348" height="154" rx="14" fill="#111111" stroke="#353535" stroke-width="2"/>
+  <text class="title" x="20" y="32">GitHub Stats</text>
+  <path d="M20 45H330" stroke="#353535"/>
+
+  <text class="number" x="20" y="85">52</text>
+  <text class="label" x="20" y="106">contributions in 2026</text>
+  <path d="M196 60V110" stroke="#353535"/>
+  <text class="number" x="214" y="85">2</text>
+  <text class="label" x="214" y="106">public repos</text>
+  <text class="note" x="20" y="138">GitHub snapshot · 25 Nov 2026</text>
+</svg>

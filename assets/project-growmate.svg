@@ -8,7 +8,7 @@
     .tag { font-size: 13px; font-weight: 700; fill: #111111; letter-spacing: 1px; }
     .num { font-size: 30px; font-weight: 700; fill: #FFFFFF; }
     .lab { font-size: 14px; fill: #D0D0D0; }
-    .in { opacity: 0; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
+    .in { opacity: 1; animation: up .7s cubic-bezier(.2,.8,.2,1) forwards; }
     .d1 { animation-delay: .3s; } .d2 { animation-delay: .55s; } .d3 { animation-delay: .8s; }
     @keyframes up { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
     .ring { stroke-dasharray: 4 6; animation: spin 6s linear infinite; transform-box: fill-box; transform-origin: center; }
